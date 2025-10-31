@@ -57,4 +57,4 @@ npm run build
 This will generate a static export in the `out` directory.
 \`\`\`
 
-```json file="" isHidden
+\`\`\`json file="" isHidden
