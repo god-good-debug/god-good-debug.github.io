@@ -8,9 +8,8 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "个人作品集 - 张三",
-  description: "展示我的设计和开发项目",
-  generator: "v0.app",
+  title: "PERSONAL WORK",
+  
 }
 
 export default function RootLayout({
