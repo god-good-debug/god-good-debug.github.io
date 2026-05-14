@@ -52,6 +52,16 @@ const projects = [
   year: "2025",
   category: "Computer Vision",
 },
+  {
+  id: 8,
+  title: "Drone Control and Flight Performance Evaluation",
+  description:
+    "A robotics coursework project focused on drone position control, simulation testing, lab flight experiments, and performance evaluation under different speed settings.",
+  image: "/drone-control-cover.jpg",
+  tags: ["Drone Control", "Feedback Control", "Simulation", "Python"],
+  year: "2026",
+  category: "Robotics",
+},
 ]
 
 const skills = [
