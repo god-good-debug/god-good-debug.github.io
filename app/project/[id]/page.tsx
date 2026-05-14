@@ -147,7 +147,7 @@ const projectsData = {
   fullDescription:
     "This project is a real-time computer vision system designed to detect small tabletop blocks using YOLOv8 and an Intel RealSense D435i depth camera. The system can identify different block classes, display bounding boxes, confidence scores, and calculate the distance from the camera to the target object. By combining RGB image detection with aligned depth data, the project also estimates the 3D camera-frame coordinates of each detected block. The project focuses on improving detection stability, depth accuracy, and practical usability for future robotic grasping or object manipulation tasks.",
   image: "/block-detection-cover.jpg",
-  video: "/block-detection-demo.mp4",
+  video: "/block-detection-demo.webm",
   images: [
     "/block-detection-screenshot-1.jpg",
     "/block-detection-screenshot-2.jpg",
