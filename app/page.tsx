@@ -42,6 +42,16 @@ const projects = [
     year: "2023",
     category: "Web Development",
   },
+  {
+  id: 7,
+  title: "Real-Time Block Detection System",
+  description:
+    "A computer vision project using YOLOv8 and Intel RealSense depth camera to detect small tabletop blocks and estimate their distance and 3D position in real time.",
+  image: "/block-detection-cover.jpg",
+  tags: ["YOLOv8", "RealSense", "OpenCV", "Python"],
+  year: "2025",
+  category: "Computer Vision",
+},
 ]
 
 const skills = [
