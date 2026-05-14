@@ -219,8 +219,10 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
       </header>
 
       {/* Hero Image */}
-      <div className="w-full aspect-[21/9] bg-muted overflow-hidden">
-        <img src={project.image || "/placeholder.svg"} alt={project.title} className="w-full h-full object-cover" />
+    
+      
+      <div className="w-full bg-black overflow-hidden flex items-center justify-center">
+        <img src={project.image || "/placeholder.svg"} alt={project.title} className="w-full max-h-[70vh] object-contain"/>
       </div>
 
       {/* Content */}
