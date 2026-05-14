@@ -189,6 +189,56 @@ const projectsData = {
   liveUrl: "",
   githubUrl: "",
 },
+  "8": {
+  id: 8,
+  title: "Drone Control and Flight Performance Evaluation",
+  description:
+    "A robotics coursework project focused on drone position control, simulation testing, lab flight experiments, and performance evaluation under different speed settings.",
+  fullDescription:
+    "This project focuses on the development and evaluation of a drone control system for autonomous position-based flight tasks. The controller was designed to guide the drone toward target positions while considering movement speed, final positioning accuracy, and flight stability. The project included simulation-based testing, wind and no-wind comparisons, and lab-based flight experiments. Different maximum speed settings were tested to understand how speed affects response time, overshoot, settling behaviour, and overall control performance. Flight data was recorded and analysed using plots to support the final evaluation.",
+  image: "/drone-control-cover.jpg",
+  video: "/drone-control-demo.mp4",
+  images: [
+    "/drone-control-screenshot-1.jpg",
+    "/drone-control-screenshot-2.jpg",
+    "/drone-control-screenshot-3.jpg",
+  ],
+  tags: ["Drone Control", "Feedback Control", "Simulation", "Python", "Data Analysis"],
+  year: "2026",
+  client: "Course Project",
+  role: "Robotics Control Developer",
+  duration: "Coursework period",
+  technologies: [
+    {
+      name: "Python",
+      description: "Implemented the drone controller, data logging, and post-flight analysis scripts",
+    },
+    {
+      name: "Feedback Control",
+      description: "Used position feedback to reduce target error and improve flight stability",
+    },
+    {
+      name: "Simulation Testing",
+      description: "Tested the controller under different speed and disturbance conditions before evaluation",
+    },
+    {
+      name: "Data Analysis",
+      description: "Analysed recorded flight data using plots of position, error, speed, and settling behaviour",
+    },
+  ],
+  features: [
+    "Position-based drone movement toward target points",
+    "Feedback-based control using target and current position information",
+    "Testing under different maximum speed settings",
+    "Simulation results with wind and no-wind conditions",
+    "Lab flight experiment comparison",
+    "CSV-based data recording and plotted performance evaluation",
+  ],
+  challenges:
+    "The main challenge was balancing speed, stability, and final positioning accuracy. Higher speed settings could reduce travel time but also increased the risk of overshoot or oscillation near the target. Lower speed settings were more stable but could make the response slower. To evaluate this trade-off, I tested different speed settings, compared simulation and lab results, and used recorded data and plots to analyse tracking accuracy, settling behaviour, and overall control stability.",
+  liveUrl: "",
+  githubUrl: "",
+},
 }
 
 export async function generateStaticParams() {
