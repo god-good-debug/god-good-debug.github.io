@@ -199,7 +199,7 @@ const projectsData = {
   image: "/drone-control-cover.jpg",
   video: "/drone-control-demo.webm",
   images: [
-    "/drone-control-screenshot-1.jpg",
+    "/drone-control-screenshot-1.png",
     "/drone-control-screenshot-2.jpg",
     "/drone-control-screenshot-3.jpg",
   ],
