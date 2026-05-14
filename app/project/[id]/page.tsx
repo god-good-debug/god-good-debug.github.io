@@ -197,7 +197,7 @@ const projectsData = {
   fullDescription:
     "This project focuses on the development and evaluation of a drone control system for autonomous position-based flight tasks. The controller was designed to guide the drone toward target positions while considering movement speed, final positioning accuracy, and flight stability. The project included simulation-based testing, wind and no-wind comparisons, and lab-based flight experiments. Different maximum speed settings were tested to understand how speed affects response time, overshoot, settling behaviour, and overall control performance. Flight data was recorded and analysed using plots to support the final evaluation.",
   image: "/drone-control-cover.jpg",
-  video: "/drone-control-demo.mp4",
+  video: "/drone-control-demo.webm",
   images: [
     "/drone-control-screenshot-1.jpg",
     "/drone-control-screenshot-2.jpg",
