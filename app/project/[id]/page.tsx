@@ -139,6 +139,56 @@ const projectsData = {
     liveUrl: "https://example.com",
     githubUrl: "https://github.com/example/project",
   },
+  "7": {
+  id: 7,
+  title: "Real-Time Block Detection System",
+  description:
+    "A computer vision project using YOLOv8 and Intel RealSense depth camera to detect small tabletop blocks and estimate their distance and 3D position in real time.",
+  fullDescription:
+    "This project is a real-time computer vision system designed to detect small tabletop blocks using YOLOv8 and an Intel RealSense D435i depth camera. The system can identify different block classes, display bounding boxes, confidence scores, and calculate the distance from the camera to the target object. By combining RGB image detection with aligned depth data, the project also estimates the 3D camera-frame coordinates of each detected block. The project focuses on improving detection stability, depth accuracy, and practical usability for future robotic grasping or object manipulation tasks.",
+  image: "/block-detection-cover.jpg",
+  video: "/block-detection-demo.mp4",
+  images: [
+    "/block-detection-screenshot-1.jpg",
+    "/block-detection-screenshot-2.jpg",
+    "/block-detection-screenshot-3.jpg",
+  ],
+  tags: ["YOLOv8", "Intel RealSense", "OpenCV", "Python", "Depth Camera"],
+  year: "2025",
+  client: "Course Project",
+  role: "Computer Vision Developer",
+  duration: "4 weeks",
+  technologies: [
+    {
+      name: "YOLOv8",
+      description: "Used for real-time object detection and block classification",
+    },
+    {
+      name: "Intel RealSense D435i",
+      description: "Captured RGB and depth data for distance and 3D position estimation",
+    },
+    {
+      name: "OpenCV",
+      description: "Processed camera frames and visualized detection results",
+    },
+    {
+      name: "Python",
+      description: "Implemented the detection pipeline and depth-processing logic",
+    },
+  ],
+  features: [
+    "Real-time detection of small tabletop blocks",
+    "Bounding box, class name, and confidence score visualization",
+    "Depth-based distance estimation for detected objects",
+    "3D camera-frame coordinate calculation using RealSense intrinsics",
+    "Depth filtering to reduce unstable or invalid distance values",
+    "Prepared for future robotic grasping and object manipulation integration",
+  ],
+  challenges:
+    "The biggest challenge was maintaining stable detection and depth estimation because the blocks were small and the depth values could fluctuate. To solve this problem, I used aligned depth data, selected depth values from a small region around the detected object, and applied filtering to reduce the influence of noisy or invalid pixels. This improved the stability of the displayed distance and made the system more reliable for practical robotic applications.",
+  liveUrl: "",
+  githubUrl: "",
+},
 }
 
 export async function generateStaticParams() {
